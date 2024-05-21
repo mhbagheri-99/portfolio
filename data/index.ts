@@ -183,7 +183,8 @@ export const workExperience = [
     id: 2,
     title: "EA - Forage online experience",
     desc: "Proposed a new feature for the Sims 4. Patched a bugfix and optimized the Sims 4 codebase by implementing an improved data structure.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
+    href: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Electronic%20Arts/a77WE3de8qrxWferQ_Electronic%20Arts_gAhihNyA7nRp4k2R7_1703545338008_completion_certificate.pdf",
     thumbnail: "/exp2.svg",
   },
   {
@@ -206,13 +207,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/mhbagheri-99"
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/mhbagheri/"
   },
 ];
