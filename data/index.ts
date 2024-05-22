@@ -19,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Currently, I'm residing in Italy, but open to remote opportunities.",
+    title:
+      "Currently, I'm residing in Italy, but open to remote opportunities.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -76,7 +77,13 @@ export const projects = [
     title: "Horizon - Finance Management App",
     des: "Take control of your finances with Horizon. Track your spending and manage your budget with ease.",
     img: "/pr1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/plaid.jpeg", "/appwrite.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/plaid.jpeg",
+      "/appwrite.svg",
+    ],
     link: "https://github.com/mhbagheri-99/banking-app",
   },
   {
@@ -92,7 +99,13 @@ export const projects = [
     title: "E-Commerce - Digital Storefront",
     des: "Unlock the potential of your digital assets. Sell and monetize your creations with our platform.",
     img: "/pr3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stripe.svg", "/prisma.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/stripe.svg",
+      "/prisma.svg",
+    ],
     link: "https://github.com/mhbagheri-99/e-commerce",
   },
   {
@@ -207,7 +220,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    href: "https://github.com/mhbagheri-99"
+    href: "https://github.com/mhbagheri-99",
   },
   // {
   //   id: 2,
@@ -216,6 +229,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    href: "https://www.linkedin.com/in/mhbagheri/"
+    href: "https://www.linkedin.com/in/mhbagheri/",
   },
 ];

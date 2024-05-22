@@ -17,10 +17,12 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Do you prefer seeing <span className="text-purple">my CV</span> in PDF format?
+          Do you prefer seeing <span className="text-purple">my CV</span> in PDF
+          format?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Get the latest version here. Last update is at the bottom of each page.
+          Get the latest version here. Last update is at the bottom of each
+          page.
         </p>
         <a href="https://www.dropbox.com/scl/fi/5kcinsobdhqho2duy0x89/CV_Bagheri.pdf?rlkey=c63tu53b06sp1i84t44vgva32&st=3fwcwr65&dl=0">
           <MagicButton

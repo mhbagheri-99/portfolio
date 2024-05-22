@@ -31,7 +31,8 @@ const Hero = () => {
             words="Welcome to my Portfolio!"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Mohammad, a full-stack developer who loves to turn ideas into impactful web experiences.
+            Hi, I&apos;m Mohammad, a full-stack developer who loves to turn
+            ideas into impactful web experiences.
           </p>
           <a href="#about">
             <MagicButton
