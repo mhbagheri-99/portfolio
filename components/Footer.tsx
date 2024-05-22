@@ -22,7 +22,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Get the latest version here. Last update is at the bottom of each page.
         </p>
-        <a href="https://www.dropbox.com/scl/fi/cw7pugxzb1iuurzc1sdhi/CV_Bagheri.pdf?rlkey=sr3szzu7wi9olnjq2gbemsbyq&st=xbe9vfqf&dl=0">
+        <a href="https://www.dropbox.com/scl/fi/5kcinsobdhqho2duy0x89/CV_Bagheri.pdf?rlkey=c63tu53b06sp1i84t44vgva32&st=3fwcwr65&dl=0">
           <MagicButton
             title="Download CV"
             icon={<FaDownload />}

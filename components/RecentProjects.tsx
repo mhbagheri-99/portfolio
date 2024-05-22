@@ -20,7 +20,7 @@ const RecentProjects = () => {
                   <img src='/bg.png' alt='bg-img' />
                 </div>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={project.img} alt={project.title} className='z-10 absolute bottom-0' />
+                <img src={project.img} alt={project.title} className='z-10 absolute max-w-56' />
               </div>
                 <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
                   {project.title}
