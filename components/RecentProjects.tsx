@@ -15,12 +15,12 @@ const RecentProjects = () => {
           <div key={project.id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
             <PinContainer title={project.link} href={project.link}>
               <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
-                <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]'>
+                <div className='relative w-full h-full overflow-hidden lg:rounded-3xl rounded-xl bg-[#13162D]'>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src='/bg.png' alt='bg-img' />
                 </div>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={project.img} alt={project.title} className='z-10 absolute max-w-56' />
+                <img src={project.img} alt={project.title} className='z-10 absolute max-w-52' />
               </div>
                 <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
                   {project.title}
